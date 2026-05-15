@@ -9,9 +9,17 @@ A system tray tool to select default printer
 * [@remusrigo](https://github.com/RemusRigo)
 * [@remusrigo](https://sourceforge.net/u/remusrigo/profile)
 
+
+
 ## Installation
 
 Just run PrinterSwitch.exe
+
+
+
+## Statistics
+
+!\[GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/RemusRigo/PrinterSwitch-Delphi/PrinterSwitch-v1.1.zip)
 
 
 
