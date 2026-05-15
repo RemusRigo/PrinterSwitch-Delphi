@@ -19,9 +19,7 @@ Just run PrinterSwitch.exe
 
 ## Statistics
 
-!\[GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/RemusRigo/PrinterSwitch-Delphi/PrinterSwitch-v1.1.zip)
-
-!\[GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/RemusRigo/PrinterSwitch-Delphi/PrinterSwitch-v1.1.zip/total)
+![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/RemusRigo/PrinterSwitch-Delphi/PrinterSwitch-v1.1.zip)
 
 
 
@@ -33,6 +31,4 @@ Just run PrinterSwitch.exe
 * 2026-05-13: Add: tray icon app / no forms
 * 2026-05-13: ICO: Printer Icon by Icojam https://www.iconarchive.com/show/onebit-4-icons-by-icojam/printer-icon.html
 * 2026-05-13: Project started
-
-## 
 
