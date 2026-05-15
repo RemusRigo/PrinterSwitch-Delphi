@@ -21,6 +21,8 @@ Just run PrinterSwitch.exe
 
 !\[GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/RemusRigo/PrinterSwitch-Delphi/PrinterSwitch-v1.1.zip)
 
+!\[GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/RemusRigo/PrinterSwitch-Delphi/PrinterSwitch-v1.1.zip/total)
+
 
 
 ## Roadmap
