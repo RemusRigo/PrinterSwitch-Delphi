@@ -10,7 +10,7 @@ unit AppData;
 interface
 
 const
-   appCaption = 'PrinterSwitch v1.0 [Remus Rigo]';
+   appCaption = 'PrinterSwitch v1.1 [Remus Rigo]';
    appName = 'PrinterSwitch';
    appVer = 'v1.1 2026-05-15';
    appAuth = '© 2026 Remus Rigo';
