@@ -80,9 +80,9 @@
         <VerInfo_Keys>CompanyName=;FileDescription=$(MSBuildProjectName);FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProgramID=com.embarcadero.$(MSBuildProjectName);ProductName=$(MSBuildProjectName);ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
         <VerInfo_Locale>1033</VerInfo_Locale>
         <Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
-        <DCC_ExeOutput>.\bin\$(Platform)\$(Config)</DCC_ExeOutput>
-        <DCC_DcuOutput>.\obj\$(Platform)\$(Config)</DCC_DcuOutput>
-        <DCC_DcpOutput>.\obj\$(Platform)\$(Config)</DCC_DcpOutput>
+        <DCC_ExeOutput>.\bin\$(Config)\$(Platform)</DCC_ExeOutput>
+        <DCC_DcuOutput>.\obj\$(Config)\$(Platform)</DCC_DcuOutput>
+        <DCC_DcpOutput>.\obj\$(Config)\$(Platform)</DCC_DcpOutput>
         <AppDPIAwarenessMode>none</AppDPIAwarenessMode>
         <Icon_MainIcon>Res\Printer.ico</Icon_MainIcon>
     </PropertyGroup>
@@ -94,9 +94,9 @@
         <VerInfo_Keys>CompanyName=;FileDescription=$(MSBuildProjectName);FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProgramID=com.embarcadero.$(MSBuildProjectName);ProductName=$(MSBuildProjectName);ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
         <VerInfo_Locale>1033</VerInfo_Locale>
         <Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
-        <DCC_DcpOutput>.\obj\$(Platform)\$(Config)</DCC_DcpOutput>
-        <DCC_DcuOutput>.\obj\$(Platform)\$(Config)</DCC_DcuOutput>
-        <DCC_ExeOutput>.\bin\$(Platform)\$(Config)</DCC_ExeOutput>
+        <DCC_DcpOutput>.\obj\$(Config)\$(Platform)</DCC_DcpOutput>
+        <DCC_DcuOutput>.\obj\$(Config)\$(Platform)</DCC_DcuOutput>
+        <DCC_ExeOutput>.\bin\$(Config)\$(Platform)</DCC_ExeOutput>
         <AppDPIAwarenessMode>none</AppDPIAwarenessMode>
         <Icon_MainIcon>Res\Printer.ico</Icon_MainIcon>
     </PropertyGroup>
@@ -140,6 +140,9 @@
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <VerInfo_Locale>1033</VerInfo_Locale>
         <Icon_MainIcon>Res\Printer.ico</Icon_MainIcon>
+        <DCC_DcpOutput>.\obj\$(Config)\$(Platform)</DCC_DcpOutput>
+        <DCC_ExeOutput>.\bin\$(Config)\$(Platform)</DCC_ExeOutput>
+        <DCC_DcuOutput>.\obj\$(Config)\$(Platform)</DCC_DcuOutput>
     </PropertyGroup>
     <ItemGroup>
         <DelphiCompile Include="$(MainSource)">
