@@ -13,13 +13,21 @@ A system tray tool to select default printer
 
 ## Installation
 
-Just run PrinterSwitch.exe
+* Just run PrinterSwitch.exe
+* Tested on:
+  * Windows 11 Pro | Enterprise LTSC
+
+
+
+## Features
+
+* Add all installed printers to System Tray Context menu and select the default printer
 
 
 
 ## Statistics
 
-![GitHub Downloads (specific asset, all releases)](https://img.shields.io/github/downloads/RemusRigo/PrinterSwitch-Delphi/PrinterSwitch-v1.1.zip)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/RemusRigo/PrinterSwitch-Delphi/total)
 
 
 

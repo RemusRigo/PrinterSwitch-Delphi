@@ -1,14 +1,11 @@
 #------------------------------------------------
 # © 2026 Remus Rigo
-#    2026-05-12
+#    2026-06-08
 #------------------------------------------------
 
 #My ignored files
-~Backup~
-~ToDo~
-Upload.bat
-Upload.ps1
-Update.bat
+[Uu]pdate.*
+[Uu]pload.*
 
 #Delphi specific files & folders
 [Bb]in
