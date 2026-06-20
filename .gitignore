@@ -6,6 +6,7 @@
 #------------------------------------------------
 # My ignored files
 #
+[Ss]ync.*
 [Uu]pload.*
 [Uu]pdate.*
 *.psd
