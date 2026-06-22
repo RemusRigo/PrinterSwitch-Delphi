@@ -10,6 +10,17 @@
 *.psd
 
 #------------------------------------------------
+# Common ignored files
+*.bak
+*.log
+*.tmp
+
+#------------------------------------------------
+# Common compiler ignored files
+[Bb]in
+[Oo]bj
+
+#------------------------------------------------
 # Windows ignored files
 #
 [Dd]esktop.ini
@@ -28,6 +39,11 @@ __recovery
 *.groupproj.local
 *.identcache
 *.tvsconfig
+
+#------------------------------------------------
+# Lazarus
+#
+*.lps
 
 #------------------------------------------------
 # Visual Studio

@@ -3,7 +3,7 @@
         <ProjectGuid>{98E96831-F182-4E95-A126-8A3817A0787E}</ProjectGuid>
     </PropertyGroup>
     <ItemGroup>
-        <Projects Include="PrinterSwitch.dproj">
+        <Projects Include="PrinterSwitch\PrinterSwitch.dproj">
             <Dependencies/>
         </Projects>
     </ItemGroup>
@@ -15,13 +15,13 @@
         </BorlandProject>
     </ProjectExtensions>
     <Target Name="PrinterSwitch">
-        <MSBuild Projects="PrinterSwitch.dproj"/>
+        <MSBuild Projects="PrinterSwitch\PrinterSwitch.dproj"/>
     </Target>
     <Target Name="PrinterSwitch:Clean">
-        <MSBuild Projects="PrinterSwitch.dproj" Targets="Clean"/>
+        <MSBuild Projects="PrinterSwitch\PrinterSwitch.dproj" Targets="Clean"/>
     </Target>
     <Target Name="PrinterSwitch:Make">
-        <MSBuild Projects="PrinterSwitch.dproj" Targets="Make"/>
+        <MSBuild Projects="PrinterSwitch\PrinterSwitch.dproj" Targets="Make"/>
     </Target>
     <Target Name="Build">
         <CallTarget Targets="PrinterSwitch"/>
