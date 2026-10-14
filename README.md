@@ -1,34 +1,39 @@
 # PrinterSwitch
-
-A system tray tool to select default printer
-
+PrinterSwitch: a system tray tool to select the default printer (Delphi version)
 
 
-## Authors
+
+## Author
 
 * [@remusrigo](https://github.com/RemusRigo)
 * [@remusrigo](https://sourceforge.net/u/remusrigo/profile)
 
 
 
-## Installation
+## Features
 
-* Just run PrinterSwitch.exe
+* Tray icon menu with all installed printers; the default printer is marked
+* Click a printer to make it the default printer
+* Turns off "Let Windows manage my default printer", so your choice stays
+* Tray icon app, no forms
+* Native Win32/Win64 app: no runtime needed
 * Tested on:
   * Windows 11 Pro | Enterprise LTSC
 
 
 
-## Features
+## User's Guide
 
-* Add all installed printers to System Tray Context menu and select the default printer
+See the [User's Guide](UsersGuide.md) for downloads, installation and usage.
 
 
 
 ## Statistics
 
-![status](https://img.shields.io/badge/status-completed-brightgreen)
+![Pascal](https://img.shields.io/badge/Language-Pascal-blue)
+![IDE](https://img.shields.io/badge/IDE-Delphi%20RAD%20Studio-purple)
 <br>
+![status](https://img.shields.io/badge/status-completed-brightgreen) 
 ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/RemusRigo/PrinterSwitch-Delphi/total)
 
 
@@ -42,4 +47,3 @@ A system tray tool to select default printer
 * 2026-05-13: ICO: Printer Icon by [Icojam](https://www.iconarchive.com/show/onebit-4-icons-by-icojam/printer-icon.html)
 * 2026-05-13: Project started (started from scratch)
 * 2009-12-04: Project started
-
